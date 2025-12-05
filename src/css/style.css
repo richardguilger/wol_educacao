@@ -460,10 +460,35 @@
    Transformation Section
    ========================================= */
 .transformation-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: var(--spacing-xl);
     align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.transformation-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    align-items: center;
+    text-align: center;
+}
+
+.transformation-content p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--color-dark);
+}
+
+.transformation-content blockquote {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin: var(--spacing-lg) 0;
+    font-style: italic;
 }
 
 .before-after {
@@ -485,7 +510,7 @@
 .footer {
     background: var(--color-dark);
     color: var(--color-white);
-    padding: var(--spacing-xl) 0 var(--spacing-md);
+    padding: var(--spacing-lg) 0 var(--spacing-md);
 }
 
 .footer-grid {
