@@ -1,0 +1,45 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #4A7C2A; /* Owl Green */
+  --color-primary-light: #6A9E45; /* Lighter Green for hover */
+  --color-secondary: #8BC34A; /* Light Green Text */
+  --color-dark: #1B2E1F; /* Dark Text/Background */
+  --color-accent: #D4AF37; /* Gold/Bronze for premium accents */
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-bg-light: #F5F9F5; /* Very light mint/grey */
+  --color-bg-dark: #121F15; /* Darker version of primary for dark mode/footer */
+  --color-text-body: #333333;
+  --color-text-light: #F5F5F5;
+  --color-border: #E0E0E0;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-dark: linear-gradient(135deg, var(--color-dark) 0%, #0F1A12 100%);
+  --gradient-gold: linear-gradient(135deg, #D4AF37 0%, #F7E49A 50%, #D4AF37 100%);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 10px 30px rgba(74, 124, 42, 0.15); /* Greenish shadow */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

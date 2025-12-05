@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos | WOL Educação em Saúde</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="./src/assets/logo-full.png" alt="Instituto WOL Logo" class="logo-img" />
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">Quem Somos</a></li>
+                    <li><a href="cursos.html" class="nav-link active">Cursos</a></li>
+                    <li><a href="plataforma.html" class="nav-link">Plataforma</a></li>
+                    <li><a href="wol-card.html" class="nav-link">WOL Card</a></li>
+                    <li><a href="contato.html" class="btn btn-primary btn-sm">Inscreva-se</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header section bg-light">
+            <div class="container text-center fade-in">
+                <h1 class="section-title">Nossos Cursos</h1>
+                <p class="section-subtitle">Conhecimento que transforma sua carreira</p>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="section bg-white">
+            <div class="container">
+                <!-- Filters -->
+                <div class="course-filters fade-in">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="estetica">Estética</button>
+                    <button class="filter-btn" data-filter="analises">Análises Clínicas</button>
+                    <button class="filter-btn" data-filter="gestao">Gestão</button>
+                    <button class="filter-btn" data-filter="hospitalar">Hospitalar</button>
+                </div>
+
+                <!-- Course Grid -->
+                <div class="courses-grid">
+                    <!-- Course Card 1 -->
+                    <div class="course-card fade-in" data-category="estetica">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Biomedicina Estética" />
+                            <span class="course-badge">Híbrido</span>
+                        </div>
+                        <div class="course-content">
+                            <span class="course-category">Estética</span>
+                            <h3>Biomedicina Estética Avançada</h3>
+                            <p>Domine as técnicas mais modernas de harmonização e procedimentos estéticos.</p>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                                <span class="course-cert">Certificado MEC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="course-card fade-in delay-200" data-category="analises">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Análises Clínicas" />
+                            <span class="course-badge">Online</span>
+                        </div>
+                        <div class="course-content">
+                            <span class="course-category">Análises Clínicas</span>
+                            <h3>Microbiologia Clínica</h3>
+                            <p>Aprofunde seus conhecimentos em diagnóstico microbiológico e antibiograma.</p>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                                <span class="course-cert">Certificado WOL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 3 -->
+                    <div class="course-card fade-in" data-category="gestao">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Gestão em Saúde" />
+                            <span class="course-badge">Online</span>
+                        </div>
+                        <div class="course-content">
+                            <span class="course-category">Gestão</span>
+                            <h3>Gestão da Qualidade em Saúde</h3>
+                            <p>Aprenda a implementar e gerenciar sistemas de qualidade em clínicas e hospitais.</p>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                                <span class="course-cert">Certificado MEC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 4 -->
+                    <div class="course-card fade-in delay-200" data-category="hospitalar">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Administração Hospitalar" />
+                            <span class="course-badge">Híbrido</span>
+                        </div>
+                        <div class="course-content">
+                            <span class="course-category">Hospitalar</span>
+                            <h3>Administração Hospitalar</h3>
+                            <p>Estratégias e práticas para a gestão eficiente de unidades hospitalares.</p>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                                <span class="course-cert">Certificado MEC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course Card 5 -->
+                    <div class="course-card fade-in" data-category="estetica">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Intradermoterapia" />
+                            <span class="course-badge">Prático</span>
+                        </div>
+                        <div class="course-content">
+                            <span class="course-category">Estética</span>
+                            <h3>Intradermoterapia Pressurizada</h3>
+                            <p>Técnicas avançadas sem agulhas para tratamentos corporais e faciais.</p>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                                <span class="course-cert">Certificado WOL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subscription CTA -->
+                <div class="subscription-cta fade-in delay-200">
+                    <div class="sub-content">
+                        <h2>Acesso Ilimitado</h2>
+                        <p>Tenha acesso a todos os cursos com o plano de assinatura WOL.</p>
+                        <ul class="sub-benefits">
+                            <li>✓ Todos os cursos online</li>
+                            <li>✓ Certificados inclusos</li>
+                            <li>✓ Aulas ao vivo mensais</li>
+                        </ul>
+                        <a href="wol-card.html" class="btn btn-white pulse-animation">Conhecer Planos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Same as index) -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="./src/assets/logo-full.png" alt="WOL Logo"
+                        style="height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1);" />
+                    <p>Educação em Saúde com excelência, inovação e humanização.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Quem Somos</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="plataforma.html">Plataforma</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="footer-links">
+                        <li>📍 São Paulo, SP</li>
+                        <li>📧 contato@woleducacao.com.br</li>
+                        <li>📱 (11) 99999-9999</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" style="color: white; margin-right: 10px;">Instagram</a>
+                        <a href="#" style="color: white; margin-right: 10px;">Facebook</a>
+                        <a href="#" style="color: white;">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WOL Educação em Saúde. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/js/main.js"></script>
+    <script>
+        // Simple Filter Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const cards = document.querySelectorAll('.course-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active to clicked
+                    btn.classList.add('active');
+
+                    const filter = btn.getAttribute('data-filter');
+
+                    cards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                            setTimeout(() => card.style.opacity = '1', 50);
+                        } else {
+                            card.style.opacity = '0';
+                            setTimeout(() => card.style.display = 'none', 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
